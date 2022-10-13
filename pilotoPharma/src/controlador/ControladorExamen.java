@@ -30,7 +30,7 @@ public class ControladorExamen {
 		
 		if(conexionGenerada != null) {
 			
-			
+			//no funciona el foreach
 			System.out.println(" Lamada selectproductos");
 			listaProductos = Consulta.SelectProductos(conexionGenerada);
 			int i = listaProductos.size();
